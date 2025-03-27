@@ -7,7 +7,7 @@ def is_power_of_two(n):
 
 
 n = int(input("Enter a number: "))
-if is_power_of_two(n) == True:
+if is_power_of_two(n):
     print(f"{n} is a power of two")
 else:
     print(f"{n} is NOT a power of two")

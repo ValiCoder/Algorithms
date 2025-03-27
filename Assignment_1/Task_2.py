@@ -7,9 +7,12 @@ def array_sum(array, n):
         return 0
     return array[n-1] + array_sum(array, n-1)
 
-array = [5, 2, 3, 7, 5, 6, 9, 8, 9, 0]
+
 
 n = int(input("Input the upper limit: "))
+
+array = [f"{i}" for i in range (1, n + 1)]
+
 
 terms = [f"{i}" for i in array[:n]]
 expression = " + ".join(terms)
