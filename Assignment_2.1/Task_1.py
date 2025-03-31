@@ -90,3 +90,12 @@ ll.delete(15)
 ll.output()
 print(ll.search(15))
 ll.output()
+
+n = int(input("Enter number of elements: "))
+
+def inputs(n):
+    for i in range(n):
+        ll.append(int(input(f"Enter element {i+1}: ")))
+
+inputs(n)
+ll.output()
