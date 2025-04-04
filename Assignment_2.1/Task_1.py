@@ -2,6 +2,7 @@
 # o	Add a node at the end of the list.
 # o	Delete a specific node from the list.
 # o	Search for a given element in the list.
+from operator import index
 
 
 class Node:
@@ -91,7 +92,7 @@ ll.output()
 print(ll.search(15))
 ll.output()
 
-n = int(input("Enter number of elements: "))
+n = int(input("Enter number of elements to add: "))
 
 def inputs(n):
     for i in range(n):

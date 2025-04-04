@@ -13,4 +13,6 @@ arrB = [1, 2]
 
 function3(arrA, arrB)
 
+# O(n*m)
+
 print(n)

@@ -1,3 +1,4 @@
+
 class Node:
     def __init__(self, val):
         self.val = val
@@ -25,7 +26,15 @@ class DoublyLinkedList:
             current.next = temp
             current = current.prev
         if temp:
-            self.head = temp.prev
+            self.head = temp.prev if temp.prev else temp
+
+    def find_first(self):
+            current = self.head
+            while current:
+                if current != None:
+                    return current
+                current = current.next
+            return None
 
     def find_middle(self):
         slow = self.head
@@ -53,3 +62,4 @@ dl.display()
 print("Middle element:", dl.find_middle())
 dl.reverse()
 dl.display()
+dl.find_first()

@@ -20,4 +20,4 @@ end_time = time.time()  # End timer
 print("Total operations:", n)
 print(f"Execution time: {end_time - start_time:.6f} seconds")
 
-# O(n^2 +n)
+# O(n^2)

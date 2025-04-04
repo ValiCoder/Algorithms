@@ -13,7 +13,7 @@ def function1(arr):
         n += 1
         product *= arr[i]
     print(sum_val, ",", product)
- # O(1)+O(n)+O(n)+O(1)=O(2n+2) = O(2n)
+ # O(1)+O(n)+O(n)+O(1)=O(2n+2) = O(n)
 
 size = 1000
 
