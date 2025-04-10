@@ -29,12 +29,7 @@ class DoublyLinkedList:
             self.head = temp.prev if temp.prev else temp
 
     def find_first(self):
-            current = self.head
-            while current:
-                if current != None:
-                    return current
-                current = current.next
-            return None
+            print(self.head.val)
 
     def find_middle(self):
         slow = self.head
